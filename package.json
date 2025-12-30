@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
